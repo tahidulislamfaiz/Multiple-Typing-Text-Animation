@@ -24,6 +24,7 @@ let textLoad = () => {
 textLoad();
 setInterval(textLoad,12000)
 
+//-------------------------------------------------------
 
 // let secText = document.querySelector('.sec-text');
 
@@ -57,6 +58,32 @@ setInterval(textLoad,12000)
 //     secText.style.color = colors[index];
 
 // }, 3000);
+
+//-------------------------------------------
+
+// let selectText = document.querySelector('.sec-text');
+
+// let texts = [
+//     { word: 'programing', color: 'white' },
+//     { word: 'bloggin', color: 'green' },
+//     { word: 'youtubing', color: 'black' }
+// ];
+
+// let index = 0;
+
+// function loadText() {
+//     selectText.textContent = texts[index].word;
+//     selectText.style.color = texts[index].color;
+
+//     index++;
+
+//     if (index === texts.length) {
+//         index = 0;
+//     }
+// }
+
+// loadText();
+// setInterval(loadText, 4000);
 
 
 
